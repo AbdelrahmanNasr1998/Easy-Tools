@@ -66,7 +66,7 @@ print(f'''{Y}
   dPYb   88__     88   88__   88__dP     88odP    dPYb   88     88 
  dP__Yb  88""     88   88""   88"Yb      88"Yb   dP__Yb  88  .o 88 
 dP""""Yb 88       88   888888 88  Yb     88  Yb dP""""Yb 88ood8 88 
-[*] welcome to After Kali (1.0) | by Abdelrahman Nasr
+[*] welcome to After Kali (1.1) | by Abdelrahman Nasr
 ''')
 
 
@@ -101,11 +101,19 @@ if ans == 'y':
             AutoRun('apt install -y python3-pip')
             try:
                 AutoRun('pip3 install virtualenv ')
-                Python = 'Done (3/3)'
+		try:
+		    AutoRun('sudo apt remove python-is-python2')
+		    try:
+		        AutoRun('sudo apt install -y python-is-python3')
+                        Python = 'Done (5/5)'			
+		    except:
+			Python = 'Done (4/5)'
+		except:
+		   Python = 'Done (3/5)'
             except:
-                Python = 'Done (2/3)'
+                Python = 'Done (2/5)'
         except:
-            Python = 'Done (1/3)'
+            Python = 'Done (1/5)'
     except:
         Python = 'Error'
 
