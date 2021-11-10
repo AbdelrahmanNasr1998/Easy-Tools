@@ -62,11 +62,13 @@ sublime):
 
 
 print(f'''{Y}
-   db    888888 888888 888888 88""Yb     88  dP    db    88     88 
-  dPYb   88__     88   88__   88__dP     88odP    dPYb   88     88 
- dP__Yb  88""     88   88""   88"Yb      88"Yb   dP__Yb  88  .o 88 
-dP""""Yb 88       88   888888 88  Yb     88  Yb dP""""Yb 88ood8 88 
-[*] welcome to After Kali (1.1) | by Abdelrahman Nasr
+d88888b  .d8b.  .d8888. db    db d888888b  .d88b.   .d88b.  db      .d8888. 
+88'     d8' `8b 88'  YP `8b  d8' `~~88~~' .8P  Y8. .8P  Y8. 88      88'  YP 
+88ooooo 88ooo88 `8bo.    `8bd8'     88    88    88 88    88 88      `8bo.   
+88~~~~~ 88~~~88   `Y8b.    88       88    88    88 88    88 88        `Y8b. 
+88.     88   88 db   8D    88       88    `8b  d8' `8b  d8' 88booo. db   8D 
+Y88888P YP   YP `8888Y'    YP       YP     `Y88P'   `Y88P'  Y88888P `8888Y' 
+[*] welcome to Easy Tools (1.1) | by Abdelrahman Nasr
 ''')
 
 
