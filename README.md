@@ -1,4 +1,4 @@
-# after-kali
+# Easy-Tools
 Python code to update, upgrade system and install pentesting tools after kali installation.
 # this tool Download
 - update
@@ -23,11 +23,11 @@ Python code to update, upgrade system and install pentesting tools after kali in
 - sublime
 # how to use
 ```
-git clone https://github.com/AbdelrahmanNasr1998/after-kali.git
+git clone https://github.com/AbdelrahmanNasr1998/Easy-Tools.git
 ```
 ```
-cd after_kali
+cd Easy-Tools
 ```
 ```
-python after-kali.py
+python easy_tools.py
 ```
